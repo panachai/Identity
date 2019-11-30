@@ -40,7 +40,7 @@ namespace Identity.DefaultUI.WebSite
                     sqlOptions => sqlOptions.MigrationsAssembly("Identity.DefaultUI.WebSite")
                 ));
 
-            services.AddDefaultIdentity<TUser>()
+            services.AddCustomIdentity<TUser>()
                 .AddDefaultUI(Framework)
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<TContext>();
