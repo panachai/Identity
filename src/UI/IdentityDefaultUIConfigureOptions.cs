@@ -19,7 +19,7 @@ namespace Microsoft.AspNetCore.Identity.UI
         IPostConfigureOptions<StaticFileOptions>,
         IPostConfigureOptions<CookieAuthenticationOptions> where TUser : class
     {
-        private const string IdentityUIDefaultAreaName = "Identity";
+        private const string IdentityUIDefaultAreaName = "webadmin";
 
         public IdentityDefaultUIConfigureOptions(
             IHostingEnvironment environment,
