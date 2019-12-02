@@ -6,7 +6,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>aspnetcore;identity;membership</PackageTags>
     <PackageId>Microsoft.AspNetCore.Identity</PackageId>
-    <Version>2.2.1.2</Version>
+    <Version>2.2.1.1001</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,5 +18,4 @@
   <ItemGroup>
     <ProjectReference Include="..\Core\Microsoft.Extensions.Identity.Core.csproj" />
   </ItemGroup>
-
 </Project>

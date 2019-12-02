@@ -80,7 +80,7 @@
   <PropertyGroup>
     <RazorTargetName>Microsoft.AspNetCore.Identity.UI.Views.$(UIFrameworkVersion)</RazorTargetName>
     <PackageId>Microsoft.AspNetCore.Identity.UI</PackageId>
-    <Version>2.2.1.2</Version>
+    <Version>2.2.1.1001</Version>
   </PropertyGroup>
 
   <Target Name="SetupRazorInputs">

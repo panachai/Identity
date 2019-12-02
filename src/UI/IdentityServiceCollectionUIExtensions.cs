@@ -58,7 +58,7 @@ namespace Microsoft.Extensions.DependencyInjection
                 o.Stores.MaxLengthForKeys = 128;
                 configureOptions?.Invoke(o);
             })
-                .AddDefaultUI()
+                .AddCustomUI()
                 .AddDefaultTokenProviders();
         }
     }

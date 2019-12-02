@@ -30,8 +30,7 @@ namespace Microsoft.AspNetCore.Identity
         /// </remarks>
         /// <param name="builder">The <see cref="IdentityBuilder"/>.</param>
         /// <returns>The <see cref="IdentityBuilder"/>.</returns>
-        public static IdentityBuilder AddDefaultUI(this IdentityBuilder builder) => builder.AddDefaultUI(UIFramework.Bootstrap3);
-
+        public static IdentityBuilder AddCustomUI(this IdentityBuilder builder) => builder.AddCustomUI(UIFramework.Bootstrap3);
 
         /// <summary>
         /// Adds a default, self-contained UI for Identity to the application using
@@ -45,7 +44,7 @@ namespace Microsoft.AspNetCore.Identity
         /// <param name="builder">The <see cref="IdentityBuilder"/>.</param>
         /// <param name="framework">The <see cref="UIFramework"/>.</param>
         /// <returns>The <see cref="IdentityBuilder"/>.</returns>
-        public static IdentityBuilder AddDefaultUI(
+        public static IdentityBuilder AddCustomUI(
             this IdentityBuilder builder,
             UIFramework framework)
         {

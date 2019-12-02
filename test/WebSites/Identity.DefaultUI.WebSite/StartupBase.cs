@@ -41,7 +41,7 @@ namespace Identity.DefaultUI.WebSite
                 ));
 
             services.AddCustomIdentity<TUser>()
-                .AddDefaultUI(Framework)
+                .AddCustomUI(Framework)
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<TContext>();
 
